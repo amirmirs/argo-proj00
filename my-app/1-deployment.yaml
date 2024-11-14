@@ -18,6 +18,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: amirmirs/nginx
+          image: amirmirs/nginx:v0.1.0
+
           ports:
             - containerPort: 80
